@@ -118,8 +118,7 @@ export default function Home() {
           </h2>
           <div className="max-w-2xl mx-auto">
             <PokeCard type="water">
-              <form name="contact" method="POST" data-netlify="true" className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
-                <input type="hidden" name="form-name" value="contact" />
+              <form action="https://formspree.io/f/xvzjlvlj" method="POST" className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
                 <PokeInput label="Nombre" name="nombre" placeholder="Tu nombre" required />
                 <PokeInput label="Email" type="email" name="email" placeholder="tu@email.com" required />
                 <div className="md:col-span-2">
