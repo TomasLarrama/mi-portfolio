@@ -118,14 +118,15 @@ export default function Home() {
           </h2>
           <div className="max-w-2xl mx-auto">
             <PokeCard type="water">
-              <form className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
-                <PokeInput label="Nombre" placeholder="Tu nombre" required />
-                <PokeInput label="Email" type="email" placeholder="tu@email.com" required />
+              <form name="contact" method="POST" data-netlify="true" className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
+                <input type="hidden" name="form-name" value="contact" />
+                <PokeInput label="Nombre" name="nombre" placeholder="Tu nombre" required />
+                <PokeInput label="Email" type="email" name="email" placeholder="tu@email.com" required />
                 <div className="md:col-span-2">
-                  <PokeInput label="Mensaje" placeholder="Hola, me gustaría trabajar contigo..." required />
+                  <PokeInput label="Mensaje" name="mensaje" placeholder="Hola, me gustaría trabajar contigo..." required />
                 </div>
                 <div className="md:col-span-2 flex justify-center mt-4">
-                  <PokeButton variant="red" className="w-full md:w-auto px-12 py-3 text-lg">
+                  <PokeButton type="submit" variant="red" className="w-full md:w-auto px-12 py-3 text-lg">
                     Enviar Mensaje
                   </PokeButton>
                 </div>

@@ -10,7 +10,7 @@ export const Footer = () => {
         <div className="flex justify-center gap-6 mt-4">
           <a href="#" className="text-poke-yellow hover:underline font-black uppercase text-xs">LinkedIn</a>
           <a href="#" className="text-poke-yellow hover:underline font-black uppercase text-xs">GitHub</a>
-          <a href="#" className="text-poke-yellow hover:underline font-black uppercase text-xs">Twitter</a>
+          <a href="#" className="text-poke-yellow hover:underline font-black uppercase text-xs">Instagram</a>
         </div>
       </div>
     </footer>
