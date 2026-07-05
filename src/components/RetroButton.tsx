@@ -5,9 +5,10 @@ interface PokeButtonProps {
   onClick?: () => void;
   className?: string;
   variant?: 'red' | 'blue' | 'yellow';
+  type?: 'button' | 'submit' | 'reset';
 }
 
-export const PokeButton = ({ children, onClick, className = '', variant = 'red' }: PokeButtonProps) => {
+export const PokeButton = ({ children, onClick, className = '', variant = 'red', type = 'button' }: PokeButtonProps) => {
   const variants = {
     red: 'bg-poke-red text-white',
     blue: 'bg-poke-blue text-white',
@@ -16,6 +17,7 @@ export const PokeButton = ({ children, onClick, className = '', variant = 'red' 
 
   return (
     <button
+      type={type}
       onClick={onClick}
       className={`
         ${className}
