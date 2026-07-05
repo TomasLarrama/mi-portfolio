@@ -8,9 +8,9 @@ export const Footer = () => {
           © 2026 <span className="text-poke-yellow">Tomas Larrama</span> | Desarrollador Full-Stack
         </p>
         <div className="flex justify-center gap-6 mt-4">
-          <a href="#" className="text-poke-yellow hover:underline font-black uppercase text-xs">LinkedIn</a>
-          <a href="#" className="text-poke-yellow hover:underline font-black uppercase text-xs">GitHub</a>
-          <a href="#" className="text-poke-yellow hover:underline font-black uppercase text-xs">Instagram</a>
+          <a href="https://www.linkedin.com/in/tomas-larrama-sosa-a49b57345/" target="_blank" rel="noopener noreferrer" className="text-poke-yellow hover:underline font-black uppercase text-xs">LinkedIn</a>
+          <a href="https://github.com/TomasLarrama" target="_blank" rel="noopener noreferrer" className="text-poke-yellow hover:underline font-black uppercase text-xs">GitHub</a>
+          <a href="https://www.instagram.com/tomi.mf16/" target="_blank" rel="noopener noreferrer" className="text-poke-yellow hover:underline font-black uppercase text-xs">Instagram</a>
         </div>
       </div>
     </footer>
