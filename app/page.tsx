@@ -17,7 +17,7 @@ export default function Home() {
             <div className="relative">
               <div className="w-48 h-48 rounded-full border-8 border-white poke-card-shadow overflow-hidden bg-gray-300 flex-shrink-0 relative z-10">
                 <img 
-                  src="/profile.jpg" 
+                  src="/mi-portfolio/profile.jpg" 
                   alt="Tomas Larrama" 
                   className="w-full h-full object-cover"
                 />
