@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="w-full bg-poke-blue-dark py-8 border-t-8 border-poke-blue mt-20">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <p className="text-white font-black uppercase tracking-widest">
-          © 2026 <span className="text-poke-yellow">Tomas Larrama</span> | Desarrollador Full-Stack
+          2026 <span className="text-poke-yellow">Tomas Larrama</span> | Desarrollador Full-Stack
         </p>
         <div className="flex justify-center gap-6 mt-4">
           <a href="https://www.linkedin.com/in/tomas-larrama-sosa-a49b57345/" target="_blank" rel="noopener noreferrer" className="text-poke-yellow hover:underline font-black uppercase text-xs">LinkedIn</a>
